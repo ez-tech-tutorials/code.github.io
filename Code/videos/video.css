@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    background: linear-gradient(#4009e3 , #fcd40a);
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#fcd40a 0%, #4009e3 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.line {
+    height: 6px;
+    background-color: linear-gradient(#c70eff 0%, #6709e3 100%);
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1{
+    color: white;
+    font-family: montserrat;
+}
